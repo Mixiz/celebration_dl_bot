@@ -1,6 +1,7 @@
-# Creating main entities for DB and
-from db_connection.db_connection import create_db
+# Creating main DB entities
+from db_connection.db_creation import *
 
 
-# Do not modify previous code. Better create new function and add to the end
 create_db()
+create_user_table()
+# Do not modify previous code. Better create new function and add to the end
